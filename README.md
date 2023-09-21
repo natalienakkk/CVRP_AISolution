@@ -28,6 +28,8 @@ Approach:
 
 3.3.Simulated Annealing
 
+4. Another approach : there is another 2 suggested approaches ALNS and genetic algorithm .
+
 
 
 Results:
@@ -39,4 +41,7 @@ Running the Project:
 
 There are 5 input examples : example1,example2,example3,example4,example5 - each example contains input parameters like capacity , expected results , each city details etc.
 
-Choose the input file from the 5 given and Run CVRP_Solution by writing the name of the input file you choose the main function. 
+Choose the input file from the 5 given and Run CVRP_Solution.py by writing the name of the input file you choose the main function. 
+
+For ALNS approach for solving CVRP run file ALNS_CVRP.py exactly according to how is explained earlier.
+For Genetic Algorithm approach just the run file CVRP_GA2.
