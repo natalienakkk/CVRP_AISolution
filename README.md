@@ -1,7 +1,9 @@
 # CVRP_AISolution
-AI-driven solution for the Capacitated Vehicle Routing Problem.
+![python](https://img.shields.io/badge/Language-Python-pink)
 
-Background:
+**AI-driven solution for the Capacitated Vehicle Routing Problem.**
+
+**Background:**
 
 The Capacitated Vehicle Routing Problem (CVRP) is a classic combinatorial optimization problem in the field of operations research. In CVRP, a fleet of vehicles is tasked with delivering goods to a set of customers in such a way that:
 
@@ -13,7 +15,7 @@ The Capacitated Vehicle Routing Problem (CVRP) is a classic combinatorial optimi
 
 Our approach to solving the CVRP is unique. We leverage clustering techniques to group cities based on their geographical locations. Once cities are grouped, we ensure that the total demand within each cluster does not exceed vehicle capacity. If a cluster's demand is too high, we reassign cities to neighboring clusters. After forming balanced clusters, we then employ various metaheuristic algorithms to determine the optimal route within each cluster.
 
-Approach:
+**Approach:**
 
 
 1.Clustering Cities: Cities are first separated into clusters based on their geographical locations using clustering techniques.
@@ -32,12 +34,12 @@ Approach:
 
 
 
-Results:
+**Results:**
 
 After applying the above approach, routes are generated for each cluster, ensuring that the overall cost is minimized. Detailed results, including the routes taken and the associated costs, are provided.
 
 
-Running the Project:
+**Running the Project:**
 
 There are 5 input examples : example1,example2,example3,example4,example5 - each example contains input parameters like capacity , expected results , each city details etc.
 
